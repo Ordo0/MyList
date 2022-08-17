@@ -2,7 +2,7 @@ package com.kslv.mylist.presentation
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.kslv.mylist.data.ShopListRepositoryImpl
+import com.kslv.mylist.data.ShopListRepositoryImpl //дата слоя здесь не должно быть, убрать позже
 import com.kslv.mylist.domain.DeleteShopItemUseCase
 import com.kslv.mylist.domain.EditShopItemUseCase
 import com.kslv.mylist.domain.GetShopListUseCase
