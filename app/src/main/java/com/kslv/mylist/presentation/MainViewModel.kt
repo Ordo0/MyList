@@ -1,6 +1,5 @@
 package com.kslv.mylist.presentation
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.kslv.mylist.data.ShopListRepositoryImpl //дата слоя здесь не должно быть, убрать позже
 import com.kslv.mylist.domain.DeleteShopItemUseCase
@@ -26,5 +25,4 @@ class MainViewModel : ViewModel() {
         val newItem = shopItem.copy(enabled = !shopItem.enabled)
         editShopItemUseCase.editShopItem(newItem)
     }
-
 }
